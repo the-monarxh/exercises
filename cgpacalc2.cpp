@@ -64,7 +64,7 @@ class course {
         grade = "B";
         cred_points = 4;
     }
-    else if((score >= 70)){
+    else if((score >= 70) && (score <= 100)){
         grade = "A";
         cred_points = 5;
     }
